@@ -2,7 +2,7 @@
 
 Silex 2 service provider (and trait) for awesome MobileDetect library.
 
-### Install
+## Install
 
 Use [Composer](https://getcomposer.org/doc/00-intro.md)
 
@@ -16,7 +16,7 @@ composer require wake/Silex-MobileDetect-Provider
 }
 ```
 
-### Service
+## Service
 
 **．mobile_detect**: The mobile detect instance.
 
@@ -26,17 +26,17 @@ Example:
 $app['mobile_detect']->isMobile ();
 ```
 
-### Registering
+## Registering
 
 ```
 $app->register (new Silex\Provider\MobileDetect ());
 ```
 
-### Trait
+## Trait
 
 Silex\Application\MobileDetect adds the following shortcuts:
 
-**．Detect**: Detect if mobile through MobileDetect.
+**．Detect**: Detecting through MobileDetect.
 
 Example:
 
@@ -44,12 +44,7 @@ Example:
 $app->detect ('isMobile');
 ```
 
-
-# Silex MobileDetect Service Provider
-
-[Silex 2](http://silex.sensiolabs.org) 的 [MobileDetect](http://mobiledetect.net) Service Provider
-
-### 安裝
+## 安裝
 
 使用 [Composer](https://getcomposer.org/doc/00-intro.md)
 
@@ -63,7 +58,7 @@ composer require wake/Silex-MobileDetect-Provider
 }
 ```
 
-### 服務
+## 服務
 
 **．mobile_detect**: MobileDetect 物件.
 
@@ -73,17 +68,17 @@ composer require wake/Silex-MobileDetect-Provider
 $app['mobile_detect']->isMobile ();
 ```
 
-### 註冊
+## 註冊
 
 ```
 $app->register (new Silex\Provider\MobileDetect ());
 ```
 
-### Trait
+## Trait
 
 Silex\Application\MobileDetect 提供下列的快速呼叫:
 
-**．detect**: 檢測連線.
+**．detect**: 檢測.
 
 範例:
 
