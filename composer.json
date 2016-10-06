@@ -1,0 +1,27 @@
+{
+  "name": "wake/Silex-MobileDetect-Provider",
+  "description": "Silex 2 service provider (and trait) for awesome MobileDetect library.",
+  "version": "v0.0.0",
+  "type": "library",
+  "keywords": ["silex", "silex2", "php", "mobile", "mobile detect"],
+  "homepage": "https://github.com/wake/MobileDetectServiceProvider",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wake Liu",
+      "email": "wake.gs@gmail.com",
+      "homepage": "https://wake.gs/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "silex/silex": "~2",
+    "mobiledetect/mobiledetectlib": "~2"
+  },
+  "autoload": {
+    "psr-0": {
+      "Silex": "src"
+    }
+  }
+}
