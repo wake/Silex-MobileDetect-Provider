@@ -1,5 +1,5 @@
 {
-  "name": "wake/Silex-MobileDetect-Provider",
+  "name": "wake/silex-mobiledetect-provider",
   "description": "Silex 2 service provider (and trait) for awesome MobileDetect library.",
   "version": "v0.0.0",
   "type": "library",
